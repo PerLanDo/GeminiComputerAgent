@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Computer Use Agent",
+  "description": "A web-based simulation of a Gemini-powered agent that interacts with and automates tasks on a computer by analyzing screenshots and generating UI actions.",
+  "requestFramePermissions": []
+}
