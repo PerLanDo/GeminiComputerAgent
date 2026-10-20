@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Gemini Computer Use Agent
 
-# Run and deploy your AI Studio app
+A web-based simulation of an autonomous **Google Gemini Computer Use Agent** that perceives desktop/browser interfaces via screenshots and generates structured UI actions (clicks, typing, scrolling, and navigation) to automate user tasks.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1jQ5MMGxacCm8lhuvBSrgrpzOI7OHVm-t
+## ✨ Features
 
-## Run Locally
+- **Visual Screen Analysis**: Uses `@google/genai` multimodal capabilities to inspect interface states and identify interactive elements.
+- **Step-by-Step Action Planning**: Generates reasoning traces and coordinate-based UI actions in real time.
+- **Interactive Simulation Environment**: Test custom user prompts and inspect the agent's observation-thought-action loop.
 
-**Prerequisites:**  Node.js
+---
 
+## 🚀 Getting Started
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Configure your Gemini API key in `.env.local`:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+3. Launch the app:
+   ```bash
+   npm run dev
+   ```
